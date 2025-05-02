@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="1024"
+   height="1024"
+   viewBox="0 0 1024 1024"
+   sodipodi:docname="Logo.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   inkscape:export-filename="teste.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     showborder="false"
+     inkscape:zoom="0.5"
+     inkscape:cx="497"
+     inkscape:cy="494"
+     inkscape:window-width="1354"
+     inkscape:window-height="761"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer4">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="1024"
+       height="1024"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Logo"
+     inkscape:highlight-color="#ef5a00"
+     style="fill:#000000;fill-opacity:1;stroke:none"
+     transform="translate(17.98638,5.07084)">
+    <g
+       id="g38"
+       inkscape:label="Baixo"
+       transform="rotate(180,558.01362,558.92916)"
+       style="fill:#000000;fill-opacity:1;stroke:none">
+      <path
+         id="path36"
+         style="opacity:1;mix-blend-mode:normal;fill:#cd00cd;fill-opacity:1;stroke:none;stroke-width:0.559807;stroke-opacity:0.501961"
+         inkscape:label="Figura"
+         d="m 407.04878,784.04244 c 6.41665,0.0776 12.77633,-2.27514 17.57812,-7.07422 L 671.06831,530.13814 c 15.47962,-12.49205 14.9849,-37.31155 14.35742,-56.27343 l -0.70703,-35.26563 a 79.5,79.5 0 0 0 66.32031,-78.28515 79.5,79.5 0 0 0 -79.5,-79.5 79.5,79.5 0 0 0 -79.5,79.5 79.5,79.5 0 0 0 42.41797,70.10156 l 0.72851,64.91406 c -13.62684,14.19765 -135.3457,134.64649 -135.3457,134.64649 l -1.47265,-173.97461 c 7.75331,-12.37746 11.94708,-26.65158 12.12109,-41.25586 -10e-6,-43.90664 -35.59336,-79.49999 -79.5,-79.5 -43.90663,1e-5 -79.49999,35.59336 -79.5,79.5 0,43.90664 35.59336,79.5 79.5,79.5 5.95726,-6.8e-4 11.89558,-0.67086 17.70312,-1.99805 l 1.57227,185.5 c 0.005,0.52303 0.17327,1.01235 0.25781,1.51953 l -62.22461,62.18945 c -9.60358,9.59815 -9.23312,25.24522 0.83008,35.08204 5.03161,4.9184 11.50522,7.42631 17.92188,7.5039 z m 23.93945,-338.29687 a 31,31 0 0 1 -31,-31 31,31 0 0 1 31,-31 31,31 0 0 1 31,31 31,31 0 0 1 -31,31 z m 240.55078,-54.43164 a 31,31 0 0 1 -31,-31 31,31 0 0 1 31,-31 31,31 0 0 1 31,31 31,31 0 0 1 -31,31 z" />
+    </g>
+    <g
+       id="g39"
+       inkscape:label="Cima"
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none">
+      <path
+         id="rect33-5"
+         style="opacity:1;fill:#cd00cd;fill-opacity:1;stroke:none;stroke-width:0.559807;stroke-opacity:0.501961"
+         inkscape:label="Figura"
+         d="m 543.53901,176.81393 a 79.5,79.5 0 0 0 -79.5,79.5 79.5,79.5 0 0 0 42.41797,70.10156 l 0.72852,64.91406 C 493.55865,405.5272 371.83979,525.97604 371.83979,525.97604 l -1.47265,-173.97461 c 7.75331,-12.37746 11.94708,-26.65158 12.12109,-41.25586 0,-43.90664 -35.59336,-79.49999 -79.5,-79.5 -43.90663,1e-5 -79.49999,35.59336 -79.5,79.5 0,43.90664 35.59336,79.5 79.5,79.5 5.95726,-6.8e-4 11.89558,-0.67086 17.70312,-1.99805 l 1.57227,185.5 c 0.005,0.52303 0.17327,1.01235 0.25781,1.51953 l -62.22461,62.18945 c -9.60358,9.59815 -9.23312,25.24522 0.83008,35.08204 10.06321,9.83681 25.89641,10.02783 35.5,0.42968 L 543.06831,426.13814 c 15.47962,-12.49205 14.9849,-37.31155 14.35742,-56.27343 l -0.70703,-35.26563 a 79.5,79.5 0 0 0 66.32031,-78.28515 79.5,79.5 0 0 0 -79.5,-79.5 z m 0,48.5 a 31,31 0 0 1 31,31 31,31 0 0 1 -31,31 31,31 0 0 1 -31,-31 31,31 0 0 1 31,-31 z m -240.55078,54.43164 a 31,31 0 0 1 31,31 31,31 0 0 1 -31,31 31,31 0 0 1 -31,-31 31,31 0 0 1 31,-31 z" />
+    </g>
+  </g>
+</svg>
