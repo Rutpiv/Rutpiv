@@ -38,7 +38,7 @@
 
   <h3>Tools & Systems</h3>
   <p>
-    <img src="https://skillicons.dev/icons?i=neovim,docker,gitlab,linux" />
+    <img src="https://skillicons.dev/icons?i=neovim,docker,gitlab,linux,godot" />
   </p>
 </div>
 
