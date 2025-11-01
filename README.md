@@ -6,12 +6,17 @@
 
 # 🧠 About Me
 
+I'm passionate about open-source software and systems programming.  
+Here’s a bit about my background:
+
 - 🎓 **Computer Engineering Student** at Engenheiro Salvador Arena College
+- 🧩 **Data Analysis Intern** at **Mercedes-Benz Brazil**, working with **Python**, **Pandas**, and **Polars**
+- 🎮 Working with a **team of developers** using **Godot** for **game development**, focusing on performance, scalability, and design
 - 🎓 **Industrial Automation Technician** from ETEC Lauro Gomes
 - 💻 Enthusiast of **C programming**, with solid experience in **C#**, **Java**, and **Lua**
 - 📚 Focused on **Information Security**, **Low-Level Programming**, and **DevOps**
-- 📦 This repository gathers my **educational projects** and **public contributions**
-- 🔗 My personal and private projects are hosted on: [gitlab.com/Rutpiv](https://gitlab.com/Rutpiv)
+- 📦 This profile showcases my **educational projects** and **open-source contributions**
+- 🔗 My personal and private projects are hosted on [GitLab](https://gitlab.com/Rutpiv)
 
 ---
 
