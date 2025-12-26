@@ -1,197 +1,1372 @@
 <svg fill="none" viewBox="0 0 800 400" width="800" height="400" xmlns="http://www.w3.org/2000/svg">
-	<foreignObject width="100%" height="100%">
-	<div xmlns="http://www.w3.org/1999/xhtml">
-	<style>
-	@keyframes flicker {
-	0% { opacity: 0.27861; }
-	5% { opacity: 0.34769; }
-	10% { opacity: 0.23604; }
-	15% { opacity: 0.90626; }
-	20% { opacity: 0.18128; }
-	25% { opacity: 0.83891; }
-	30% { opacity: 0.65583; }
-	35% { opacity: 0.67807; }
-	40% { opacity: 0.26559; }
-	45% { opacity: 0.84693; }
-	50% { opacity: 0.96019; }
-	55% { opacity: 0.08594; }
-	60% { opacity: 0.20313; }
-	65% { opacity: 0.71988; }
-	70% { opacity: 0.53455; }
-	75% { opacity: 0.37288; }
-	80% { opacity: 0.71428; }
-	85% { opacity: 0.70419; }
-	90% { opacity: 0.7003; }
-	95% { opacity: 0.36108; }
-	100% { opacity: 0.24387; }
-	}
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+                :root{
+                --bg:#0b000b;
+                --bg2:#040004;
+                --ink:#cd00cd;
+                --line:rgba(205,0,205,.42);
+                --shadow:rgba(205,0,205,.20);
 
-	@keyframes textShadow {
-	0% { text-shadow: 0.4389924193300864px 0 1px rgba(0,30,255,0.5), -0.4389924193300864px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
-	5% { text-shadow: 2.7928974010788217px 0 1px rgba(0,30,255,0.5), -2.7928974010788217px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
-	10% { text-shadow: 0.02956275843481219px 0 1px rgba(0,30,255,0.5), -0.02956275843481219px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
-	15% { text-shadow: 0.40218538552878136px 0 1px rgba(0,30,255,0.5), -0.40218538552878136px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
-	20% { text-shadow: 3.4794037899852017px 0 1px rgba(0,30,255,0.5), -3.4794037899852017px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
-	25% { text-shadow: 1.6125630401149584px 0 1px rgba(0,30,255,0.5), -1.6125630401149584px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
-	30% { text-shadow: 0.7015590085143956px 0 1px rgba(0,30,255,0.5), -0.7015590085143956px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
-	35% { text-shadow: 3.896914047650351px 0 1px rgba(0,30,255,0.5), -3.896914047650351px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
-	40% { text-shadow: 3.870905614848819px 0 1px rgba(0,30,255,0.5), -3.870905614848819px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
-	45% { text-shadow: 2.231056963361899px 0 1px rgba(0,30,255,0.5), -2.231056963361899px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
-	50% { text-shadow: 0.08084290417898504px 0 1px rgba(0,30,255,0.5), -0.08084290417898504px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
-	55% { text-shadow: 2.3758461067427543px 0 1px rgba(0,30,255,0.5), -2.3758461067427543px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
-	60% { text-shadow: 2.202193051050636px 0 1px rgba(0,30,255,0.5), -2.202193051050636px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
-	65% { text-shadow: 2.8638780614874975px 0 1px rgba(0,30,255,0.5), -2.8638780614874975px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
-	70% { text-shadow: 0.48874025155497314px 0 1px rgba(0,30,255,0.5), -0.48874025155497314px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
-	75% { text-shadow: 1.8948491305757957px 0 1px rgba(0,30,255,0.5), -1.8948491305757957px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
-	80% { text-shadow: 0.0833037308038857px 0 1px rgba(0,30,255,0.5), -0.0833037308038857px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
-	85% { text-shadow: 0.09769827255241735px 0 1px rgba(0,30,255,0.5), -0.09769827255241735px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
-	90% { text-shadow: 3.443339761481782px 0 1px rgba(0,30,255,0.5), -3.443339761481782px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
-	95% { text-shadow: 2.1841838852799786px 0 1px rgba(0,30,255,0.5), -2.1841838852799786px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
-	100% { text-shadow: 2.6208764473832513px 0 1px rgba(0,30,255,0.5), -2.6208764473832513px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
-	}
+                --bootBg:#050005;
+                --bootInk:rgba(255,255,255,.78);
+                --bootDim:rgba(255,255,255,.34);
+                }
 
-	#main {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	width: 100%;
-	height: 100%;
-	border-radius: 10px;
-	background-color: #101010;
-	color: #cd00cd;
-	font-family: 'Space Mono', monospace;
-	letter-spacing: 2px;
-	text-align: center;
-	padding: 1em;
-	box-sizing: border-box;
-	position: relative;
-	animation: textShadow 1.6s infinite;
-	overflow: hidden;
-	}
+                /* =========================
+                BOOT: terminal (mais longo)
+                ========================= */
+                @keyframes bootOverlay {
+                0%   { opacity: 1; transform: translateY(0) scale(1); filter: blur(.15px); }
+                80%  { opacity: 1; transform: translateY(0) scale(1); filter: blur(.12px); }
+                100% { opacity: 0; transform: translateY(-2px) scale(1.01); filter: blur(.75px); }
+                }
 
-	#main::after {
-	content: " ";
-	display: block;
-	position: absolute;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	background: rgba(18, 16, 16, 0.1);
-	opacity: 0;
-	z-index: 2;
-	pointer-events: none;
-	animation: flicker 0.15s infinite;
-	border-radius: inherit;
-	}
+                @keyframes bootScroll {
+                0%   { transform: translateY(72%); }
+                100% { transform: translateY(-92%); }
+                }
 
-	#main::before {
-	content: " ";
-	display: block;
-	position: absolute;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
-	z-index: 2;
-	background-size: 100% 2px, 3px 100%;
-	pointer-events: none;
-	border-radius: inherit;
-	}
+                @keyframes bootFlicker {
+                0% { opacity: .10; }
+                10% { opacity: .30; }
+                20% { opacity: .06; }
+                30% { opacity: .26; }
+                40% { opacity: .08; }
+                50% { opacity: .34; }
+                60% { opacity: .12; }
+                70% { opacity: .22; }
+                80% { opacity: .08; }
+                90% { opacity: .28; }
+                100% { opacity: .10; }
+                }
 
-	.glitch-img {
-	position: relative;
-	width: 150px;
-	height: 150px;
-	margin-bottom: 1em;
-	}
+                @keyframes caretBlink {
+                0%, 49% { opacity: 1; }
+                50%, 100% { opacity: 0; }
+                }
 
-	.glitch-img svg {
-	display: block;
-	width: 100%;
-	height: 100%;
-	border-radius: 50%;
-	}
+                @keyframes bootScanMove {
+                0%   { background-position: 0 0, 0 0; }
+                100% { background-position: 0 340px, 0 0; }
+                }
 
-	.glitch-img::before,
-	.glitch-img::after {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221024%22%20height%3D%221024%22%3E%3Cg%20style%3D%22fill%3A%23000%3Bfill-opacity%3A1%3Bstroke%3Anone%22%3E%3Cg%20style%3D%22fill%3A%23000%3Bfill-opacity%3A1%3Bstroke%3Anone%22%3E%3Cpath%20d%3D%22M407.049%20784.042c6.416.078%2012.776-2.275%2017.578-7.074l246.441-246.83c15.48-12.492%2014.985-37.311%2014.358-56.273l-.707-35.266a79.5%2079.5%200%200%200%2066.32-78.285%2079.5%2079.5%200%200%200-79.5-79.5%2079.5%2079.5%200%200%200-79.5%2079.5%2079.5%2079.5%200%200%200%2042.418%2070.101l.728%2064.915C621.56%20509.527%20499.84%20629.976%20499.84%20629.976l-1.473-173.975a79.5%2079.5%200%200%200%2012.121-41.255c0-43.907-35.593-79.5-79.5-79.5-43.906%200-79.5%2035.593-79.5%2079.5%200%2043.906%2035.594%2079.5%2079.5%2079.5%205.957-.001%2011.896-.671%2017.703-1.998l1.573%20185.5c.005.523.173%201.012.257%201.52l-62.224%2062.189c-9.604%209.598-9.233%2025.245.83%2035.082%205.032%204.918%2011.505%207.426%2017.922%207.503zm23.94-338.296a31%2031%200%200%201-31-31%2031%2031%200%200%201%2031-31%2031%2031%200%200%201%2031%2031%2031%2031%200%200%201-31%2031zm240.55-54.432a31%2031%200%200%201-31-31%2031%2031%200%200%201%2031-31%2031%2031%200%200%201%2031%2031%2031%2031%200%200%201-31%2031z%22%20style%3D%22opacity%3A1%3Bmix-blend-mode%3Anormal%3Bfill%3A%23cd00cd%3Bfill-opacity%3A1%3Bstroke%3Anone%3Bstroke-width%3A.559807%3Bstroke-opacity%3A.501961%22%20transform%3D%22rotate(180%20567.007%20561.465)%22%2F%3E%3C%2Fg%3E%3Cg%20style%3D%22opacity%3A1%3Bfill%3A%23000%3Bfill-opacity%3A1%3Bstroke%3Anone%22%3E%3Cpath%20d%3D%22M543.539%20176.814a79.5%2079.5%200%200%200-79.5%2079.5%2079.5%2079.5%200%200%200%2042.418%2070.101l.728%2064.915C493.56%20405.527%20371.84%20525.976%20371.84%20525.976l-1.473-173.975a79.5%2079.5%200%200%200%2012.121-41.255c0-43.907-35.593-79.5-79.5-79.5-43.906%200-79.5%2035.593-79.5%2079.5%200%2043.906%2035.594%2079.5%2079.5%2079.5%205.957-.001%2011.896-.671%2017.703-1.998l1.573%20185.5c.005.523.173%201.012.257%201.52l-62.224%2062.189c-9.604%209.598-9.233%2025.245.83%2035.082%2010.063%209.836%2025.896%2010.027%2035.5.43l246.441-246.83c15.48-12.493%2014.985-37.312%2014.358-56.274l-.707-35.266a79.5%2079.5%200%200%200%2066.32-78.285%2079.5%2079.5%200%200%200-79.5-79.5zm0%2048.5a31%2031%200%200%201%2031%2031%2031%2031%200%200%201-31%2031%2031%2031%200%200%201-31-31%2031%2031%200%200%201%2031-31zm-240.55%2054.432a31%2031%200%200%201%2031%2031%2031%2031%200%200%201-31%2031%2031%2031%200%200%201-31-31%2031%2031%200%200%201%2031-31z%22%20style%3D%22opacity%3A1%3Bfill%3A%23cd00cd%3Bfill-opacity%3A1%3Bstroke%3Anone%3Bstroke-width%3A.559807%3Bstroke-opacity%3A.501961%22%20transform%3D%22translate(17.986%205.07)%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat center/contain;
-	opacity: 0.8;
-	pointer-events: none;
-	border-radius: inherit;
-	}
+                /* =========================
+                CARD: entrada e CRT
+                ========================= */
+                @keyframes cardIn {
+                0%   { opacity:0; transform: translateY(8px) scale(.99); filter: blur(.6px); }
+                55%  { opacity:1; transform: translateY(0) scale(1); filter: blur(0); }
+                100% { opacity:1; transform: translateY(0) scale(1); }
+                }
 
-	.glitch-img::before {
-	left: -2px;
-	animation: glitch-anim-1 2s infinite linear;
-	}
+                @keyframes scanMove {
+                0%   { background-position: 0 0, 0 0; }
+                100% { background-position: 0 180px, 0 0; }
+                }
 
-	.glitch-img::after {
-	left: 2px;
-	animation: glitch-anim-2 1.5s infinite linear;
-	}
+                @keyframes haloPulse {
+                0%   { transform: scale(.98); opacity: .70; }
+                50%  { transform: scale(1.05); opacity: .96; }
+                100% { transform: scale(.98); opacity: .70; }
+                }
 
-	@keyframes glitch-anim-1 {
-	0% { clip: rect(0, 150px, 30px, 0); }
-	20% { clip: rect(40px, 150px, 90px, 0); }
-	40% { clip: rect(10px, 150px, 130px, 0); }
-	60% { clip: rect(25px, 150px, 150px, 0); }
-	80% { clip: rect(60px, 150px, 120px, 0); }
-	100% { clip: rect(0, 150px, 150px, 0); }
-	}
+                @keyframes frameBoot {
+                0%   { opacity: 0; transform: scale(.985); }
+                18%  { opacity: .95; transform: scale(1); }
+                55%  { opacity: .55; transform: scale(1); }
+                100% { opacity: 0; transform: scale(1); }
+                }
 
-	@keyframes glitch-anim-2 {
-	0% { clip: rect(150px, 150px, 150px, 0); }
-	20% { clip: rect(110px, 150px, 145px, 0); }
-	40% { clip: rect(80px, 150px, 100px, 0); }
-	60% { clip: rect(95px, 150px, 75px, 0); }
-	80% { clip: rect(30px, 150px, 140px, 0); }
-	100% { clip: rect(150px, 150px, 0, 0); }
-	}
+                @keyframes revealUp {
+                0%   { opacity:0; transform: translateY(6px); filter: blur(.6px); }
+                60%  { opacity:1; transform: translateY(0); filter: blur(0); }
+                100% { opacity:1; transform: translateY(0); }
+                }
 
-	#name {
-	font-size: 1.5em;
-	margin: 0.2em 0;
-	}
+                @keyframes textShadow {
+                0% { text-shadow: 0.44px 0 1px rgba(0,30,255,0.5), -0.44px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
+                5% { text-shadow: 2.79px 0 1px rgba(0,30,255,0.5), -2.79px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
+                10% { text-shadow: 0.03px 0 1px rgba(0,30,255,0.5), -0.03px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
+                15% { text-shadow: 0.40px 0 1px rgba(0,30,255,0.5), -0.40px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
+                20% { text-shadow: 3.48px 0 1px rgba(0,30,255,0.5), -3.48px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
+                25% { text-shadow: 1.61px 0 1px rgba(0,30,255,0.5), -1.61px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
+                30% { text-shadow: 0.70px 0 1px rgba(0,30,255,0.5), -0.70px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
+                35% { text-shadow: 3.90px 0 1px rgba(0,30,255,0.5), -3.90px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
+                40% { text-shadow: 3.87px 0 1px rgba(0,30,255,0.5), -3.87px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
+                45% { text-shadow: 2.23px 0 1px rgba(0,30,255,0.5), -2.23px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
+                50% { text-shadow: 0.08px 0 1px rgba(0,30,255,0.5), -0.08px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
+                55% { text-shadow: 2.38px 0 1px rgba(0,30,255,0.5), -2.38px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
+                60% { text-shadow: 2.20px 0 1px rgba(0,30,255,0.5), -2.20px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
+                65% { text-shadow: 2.86px 0 1px rgba(0,30,255,0.5), -2.86px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
+                70% { text-shadow: 0.49px 0 1px rgba(0,30,255,0.5), -0.49px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
+                75% { text-shadow: 1.89px 0 1px rgba(0,30,255,0.5), -1.89px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
+                80% { text-shadow: 0.08px 0 1px rgba(0,30,255,0.5), -0.08px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
+                85% { text-shadow: 0.10px 0 1px rgba(0,30,255,0.5), -0.10px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
+                90% { text-shadow: 3.44px 0 1px rgba(0,30,255,0.5), -3.44px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
+                95% { text-shadow: 2.18px 0 1px rgba(0,30,255,0.5), -2.18px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
+                100% { text-shadow: 2.62px 0 1px rgba(0,30,255,0.5), -2.62px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
+                }
 
-	#nickname {
-	font-size: 0.75em;
-	margin: 0;
-	font-style: italic;
-	}
+                @keyframes flicker {
+                0% { opacity: 0.27861; }
+                5% { opacity: 0.34769; }
+                10% { opacity: 0.23604; }
+                15% { opacity: 0.90626; }
+                20% { opacity: 0.18128; }
+                25% { opacity: 0.83891; }
+                30% { opacity: 0.65583; }
+                35% { opacity: 0.67807; }
+                40% { opacity: 0.26559; }
+                45% { opacity: 0.84693; }
+                50% { opacity: 0.96019; }
+                55% { opacity: 0.08594; }
+                60% { opacity: 0.20313; }
+                65% { opacity: 0.71988; }
+                70% { opacity: 0.53455; }
+                75% { opacity: 0.37288; }
+                80% { opacity: 0.71428; }
+                85% { opacity: 0.70419; }
+                90% { opacity: 0.7003; }
+                95% { opacity: 0.36108; }
+                100% { opacity: 0.24387; }
+                }
 
-	#subtitle {
-	font-size: 1em;
-	max-width: 600px;
-	line-height: 1.4;
-	}
-	</style>
+                @keyframes glitch-anim-1 {
+                0%   { clip: rect(0, 150px, 30px, 0); transform: translate(0,0); }
+                20%  { clip: rect(40px, 150px, 90px, 0); transform: translate(-1px,0); }
+                40%  { clip: rect(10px, 150px, 130px, 0); transform: translate(1px,0); }
+                60%  { clip: rect(25px, 150px, 150px, 0); transform: translate(-1px,0); }
+                80%  { clip: rect(60px, 150px, 120px, 0); transform: translate(1px,0); }
+                100% { clip: rect(0, 150px, 150px, 0); transform: translate(0,0); }
+                }
 
-	<div id="main">
-	<div class="glitch-img">
-	<svg viewBox="0 0 1024 1024" width="100%" height="100%">
-	<g style="fill:#000;fill-opacity:1;stroke:none">
-	<g style="fill:#000;fill-opacity:1;stroke:none">
-	<path d="M407.049 784.042c6.416.078 12.776-2.275 17.578-7.074l246.441-246.83c15.48-12.492 14.985-37.311 14.358-56.273l-.707-35.266a79.5 79.5 0 0 0 66.32-78.285 79.5 79.5 0 0 0-79.5-79.5 79.5 79.5 0 0 0-79.5 79.5 79.5 79.5 0 0 0 42.418 70.101l.728 64.915C621.56 509.527 499.84 629.976 499.84 629.976l-1.473-173.975a79.5 79.5 0 0 0 12.121-41.255c0-43.907-35.593-79.5-79.5-79.5-43.906 0-79.5 35.593-79.5 79.5 0 43.906 35.594 79.5 79.5 79.5 5.957-.001 11.896-.671 17.703-1.998l1.573 185.5c.005.523.173 1.012.257 1.52l-62.224 62.189c-9.604 9.598-9.233 25.245.83 35.082 5.032 4.918 11.505 7.426 17.922 7.503zm23.94-338.296a31 31 0 0 1-31-31 31 31 0 0 1 31-31 31 31 0 0 1 31 31 31 31 0 0 1-31 31zm240.55-54.432a31 31 0 0 1-31-31 31 31 0 0 1 31-31 31 31 0 0 1 31 31 31 31 0 0 1-31 31z" style="opacity:1;mix-blend-mode:normal;fill:#cd00cd;fill-opacity:1;stroke:none;stroke-width:.559807;stroke-opacity:.501961" transform="rotate(180 567.007 561.465)"/>
-	</g>
-	<g style="opacity:1;fill:#000;fill-opacity:1;stroke:none">
-	<path d="M543.539 176.814a79.5 79.5 0 0 0-79.5 79.5 79.5 79.5 0 0 0 42.418 70.101l.728 64.915C493.56 405.527 371.84 525.976 371.84 525.976l-1.473-173.975a79.5 79.5 0 0 0 12.121-41.255c0-43.907-35.593-79.5-79.5-79.5-43.906 0-79.5 35.593-79.5 79.5 0 43.906 35.594 79.5 79.5 79.5 5.957-.001 11.896-.671 17.703-1.998l1.573 185.5c.005.523.173 1.012.257 1.52l-62.224 62.189c-9.604 9.598-9.233 25.245.83 35.082 10.063 9.836 25.896 10.027 35.5.43l246.441-246.83c15.48-12.493 14.985-37.312 14.358-56.274l-.707-35.266a79.5 79.5 0 0 0 66.32-78.285 79.5 79.5 0 0 0-79.5-79.5zm0 48.5a31 31 0 0 1 31 31 31 31 0 0 1-31 31 31 31 0 0 1-31-31 31 31 0 0 1 31-31zm-240.55 54.432a31 31 0 0 1 31 31 31 31 0 0 1-31 31 31 31 0 0 1-31-31 31 31 0 0 1 31-31z" style="opacity:1;fill:#cd00cd;fill-opacity:1;stroke:none;stroke-width:.559807;stroke-opacity:.501961" transform="translate(17.986 5.07)"/>
-	</g>
-	</g>
-	</svg>
-	</div>
-	<h3 id="nickname">@rutpiv</h3>
-<h2 id="name">Roger Freitas Pereira</h2>
-<p id="subtitle">Between signal and silence – I manifest patterns from the void.</p>
-</div>
-</div>
-</foreignObject>
+                @keyframes glitch-anim-2 {
+                0%   { clip: rect(150px, 150px, 150px, 0); transform: translate(0,0); }
+                20%  { clip: rect(110px, 150px, 145px, 0); transform: translate(1px,0); }
+                40%  { clip: rect(80px, 150px, 100px, 0); transform: translate(-1px,0); }
+                60%  { clip: rect(95px, 150px, 75px, 0); transform: translate(1px,0); }
+                80%  { clip: rect(30px, 150px, 140px, 0); transform: translate(-1px,0); }
+                100% { clip: rect(150px, 150px, 0, 0); transform: translate(0,0); }
+                }
+
+                /* =========================
+                Layout
+                ========================= */
+                #wrap{
+                width:100%;
+                height:100%;
+                position:relative;
+                overflow:hidden;
+                border-radius: 14px;
+                }
+
+                /* Boot overlay (alinhado à esquerda) */
+                #boot{
+                position:absolute;
+                inset:0;
+                z-index:30;
+                border-radius: 14px;
+
+                background:
+                radial-gradient(110% 90% at 50% 45%, rgba(205,0,205,.06), rgba(0,0,0,0) 60%),
+                linear-gradient(var(--bootBg), #000);
+
+                border: 1px solid rgba(205,0,205,.30);
+                box-shadow: 0 0 0 1px rgba(0,0,0,1) inset, 0 0 18px rgba(205,0,205,.10);
+
+                display:flex;
+                align-items:stretch;
+                justify-content:flex-start;
+
+                padding: 14px 16px;
+                box-sizing:border-box;
+
+                animation: bootOverlay 1.55s ease-out forwards;
+                }
+
+                #boot::before{
+                content:"";
+                position:absolute;
+                inset:0;
+                pointer-events:none;
+                z-index:1;
+                border-radius: inherit;
+
+                background:
+                linear-gradient(rgba(0,0,0,0) 50%, rgba(0,0,0,.32) 50%),
+                linear-gradient(90deg, rgba(255,0,140,.05), rgba(205,0,205,.03), rgba(0,170,255,.05));
+                background-size: 100% 2px, 3px 100%;
+                opacity: .82;
+                animation: bootScanMove 1.25s linear infinite;
+                }
+
+                #boot::after{
+                content:"";
+                position:absolute;
+                inset:0;
+                pointer-events:none;
+                z-index:2;
+                border-radius: inherit;
+                background: rgba(18,16,16,.16);
+                opacity:.12;
+                animation: bootFlicker .09s infinite;
+                mix-blend-mode: overlay;
+                }
+
+                .bootScreen{
+                position:relative;
+                z-index:5;
+                width:100%;
+                height:100%;
+                overflow:hidden;
+
+                display:flex;
+                align-items:flex-start;
+                justify-content:flex-start;
+                }
+
+                .bootText{
+                margin:0;
+                width:100%;
+                text-align:left;
+
+                white-space:normal;
+                font-family: "Space Mono","VT323","Courier New",monospace;
+                font-size: 11px;
+                line-height: 1.18;
+                letter-spacing: .55px;
+                color: var(--bootInk);
+                opacity: .98;
+
+                transform: translateY(72%);
+                animation: bootScroll 1.22s steps(140, end) forwards;
+                }
+
+                /* linhas do boot em colunas fixas */
+                .bootText .ln{
+                display:grid;
+                grid-template-columns: 8ch 8ch 1fr 3ch; /* [  0.031] | [uefi] | mensagem | ok */
+                column-gap: 3ch;
+                align-items:baseline;
+
+                white-space: normal;
+                }
+
+                .bootText .ln .ts,
+                .bootText .ln .tag,
+                .bootText .ln .msg,
+                .bootText .ln .st{
+                white-space: pre;
+                }
+
+                .bootText .ln .msg{
+                min-width: 0; /* evita overflow estranho */
+                }
+
+                .bootText .ln .st{
+                text-align:right;
+                }
+
+                .bootText .ln > .ok{
+                display:inline-block;
+                transform: translateX(-10ch);
+                }
+
+
+                /* espaçamento entre blocos */
+                .bootText .gap{
+                height: 10px;
+                }
+
+                .bootText .dim{ color: var(--bootDim); }
+                .bootText .ink{ color: rgba(205,0,205,.88); }
+                .bootText .err{ color: rgba(255,95,150,.80); }
+                .bootText .ok { color: rgba(140,255,190,.70); }
+
+                .caret{
+                display:inline-block;
+                width: 8px;
+                height: 14px;
+                margin-left: 2px;
+                background: rgba(205,0,205,.85);
+                vertical-align: -2px;
+                animation: caretBlink .45s steps(2, end) infinite;
+                }
+
+                /* Card */
+                #card{
+                width:100%;
+                height:100%;
+                box-sizing:border-box;
+                position:relative;
+                overflow:hidden;
+                border-radius: 14px;
+
+                background:
+                radial-gradient(110% 90% at 50% 45%, rgba(205,0,205,.08), rgba(0,0,0,0) 60%),
+                linear-gradient(var(--bg2), #000);
+
+                border: 1px solid var(--line);
+                box-shadow: 0 0 0 1px rgba(0,0,0,1) inset, 0 0 18px var(--shadow);
+
+                display:flex;
+                flex-direction:column;
+                align-items:center;
+                justify-content:center;
+                gap: 10px;
+
+                padding: 22px 18px;
+                color: var(--ink);
+                font-family: "Space Mono","VT323","Courier New",monospace;
+                letter-spacing: 1.2px;
+                text-align:center;
+
+                opacity:0;
+                animation: cardIn .72s ease-out forwards;
+                animation-delay: 1.20s;
+                }
+
+                #card::before{
+                content:"";
+                position:absolute;
+                inset:0;
+                pointer-events:none;
+                z-index:1;
+                background:
+                linear-gradient(rgba(0,0,0,0) 50%, rgba(0,0,0,.24) 50%),
+                linear-gradient(90deg, rgba(255,0,140,.05), rgba(205,0,205,.04), rgba(0,170,255,.05));
+                background-size: 100% 2px, 3px 100%;
+                opacity: .70;
+                animation: scanMove 7.6s linear infinite;
+                }
+
+                #card::after{
+                content:"";
+                position:absolute;
+                inset:0;
+                pointer-events:none;
+                z-index:2;
+                background: rgba(18, 16, 16, 0.10);
+                opacity: 0;
+                animation: flicker 0.15s infinite;
+                mix-blend-mode: overlay;
+                }
+
+                .stage{
+                position:relative;
+                z-index:5;
+                display:flex;
+                flex-direction:column;
+                align-items:center;
+                justify-content:center;
+                gap: 10px;
+                width:100%;
+                }
+
+                .logoArea{
+                position:relative;
+                width: 170px;
+                height: 170px;
+                display:grid;
+                place-items:center;
+                }
+
+                .halo{
+                position:absolute;
+                inset:-26%;
+                border-radius: 999px;
+                background:
+                radial-gradient(closest-side, rgba(205,0,205,.34), rgba(205,0,205,.14) 36%, rgba(0,0,0,0) 72%);
+                filter: blur(.2px);
+                animation: haloPulse 3.2s ease-in-out infinite;
+                animation-delay: 1.20s;
+                }
+
+                .frame{
+                position:absolute;
+                inset:0;
+                border-radius: 14px;
+                border: 1px solid rgba(205,0,205,.55);
+                background: rgba(0,0,0,.40);
+                box-shadow: 0 0 0 1px rgba(0,0,0,1) inset, 0 0 22px rgba(205,0,205,.14);
+                opacity:0;
+                animation: frameBoot 1.05s ease-out forwards;
+                animation-delay: 1.26s;
+                }
+
+                .logoWrap{
+                position:relative;
+                width: 132px;
+                height: 132px;
+                border-radius: 999px;
+                overflow:hidden;
+
+                opacity:0;
+                animation: revealUp .65s ease-out forwards;
+                animation-delay: 1.30s;
+
+                filter: drop-shadow(0 0 10px rgba(205,0,205,.22)) drop-shadow(0 0 24px rgba(205,0,205,.14));
+                }
+
+                .logoWrap > svg{
+                position:relative;
+                z-index:1;
+                width:100%;
+                height:100%;
+                display:block;
+                }
+
+                .logoWrap::before,
+                .logoWrap::after{
+                content:"";
+                position:absolute;
+                inset:0;
+                z-index:2;
+                pointer-events:none;
+                border-radius: inherit;
+                opacity:.75;
+                background: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221024%22%20height%3D%221024%22%20viewBox%3D%220%200%201024%201024%22%3E%3Cpath%20fill%3D%22%23cd00cd%22%20d%3D%22M407.049%20784.042c6.416.078%2012.776-2.275%2017.578-7.074l246.441-246.83c15.48-12.492%2014.985-37.311%2014.358-56.273l-.707-35.266a79.5%2079.5%200%200%200%2066.32-78.285%2079.5%2079.5%200%200%200-79.5-79.5%2079.5%2079.5%200%200%200-79.5%2079.5%2079.5%2079.5%200%200%200%2042.418%2070.101l.728%2064.915C621.56%20509.527%20499.84%20629.976%20499.84%20629.976l-1.473-173.975a79.5%2079.5%200%200%200%2012.121-41.255c0-43.907-35.593-79.5-79.5-79.5-43.906%200-79.5%2035.593-79.5%2079.5%200%2043.906%2035.594%2079.5%2079.5%2079.5%205.957-.001%2011.896-.671%2017.703-1.998l1.573%20185.5c.005.523.173%201.012.257%201.52l-62.224%2062.189c-9.604%209.598-9.233%2025.245.83%2035.082%205.032%204.918%2011.505%207.426%2017.922%207.503zm23.94-338.296a31%2031%200%200%201-31-31%2031%2031%200%200%201%2031-31%2031%2031%200%200%201%2031%2031%2031%2031%200%200%201-31%2031zm240.55-54.432a31%2031%200%200%201-31-31%2031%2031%200%200%201%2031-31%2031%2031%200%200%201%2031%2031%2031%2031%200%200%201-31%2031z%22%20transform%3D%22rotate(180%20567.007%20561.465)%22%2F%3E%3Cpath%20fill%3D%22%23cd00cd%22%20d%3D%22M543.539%20176.814a79.5%2079.5%200%200%200-79.5%2079.5%2079.5%2079.5%200%200%200%2042.418%2070.101l.728%2064.915C493.56%20405.527%20371.84%20525.976%20371.84%20525.976l-1.473-173.975a79.5%2079.5%200%200%200%2012.121-41.255c0-43.907-35.593-79.5-79.5-79.5-43.906%200-79.5%2035.593-79.5%2079.5%200%2043.906%2035.594%2079.5%2079.5%2079.5%205.957-.001%2011.896-.671%2017.703-1.998l1.573%20185.5c.005.523.173%201.012.257%201.52l-62.224%2062.189c-9.604%209.598-9.233%2025.245.83%2035.082%2010.063%209.836%2025.896%2010.027%2035.5.43l246.441-246.83c15.48-12.493%2014.985-37.312%2014.358-56.274l-.707-35.266a79.5%2079.5%200%200%200%2066.32-78.285%2079.5%2079.5%200%200%200-79.5-79.5zm0%2048.5a31%2031%200%200%201%2031%2031%2031%2031%200%200%201-31%2031%2031%2031%200%200%201-31-31%2031%2031%200%200%201%2031-31zm-240.55%2054.432a31%2031%200%200%201%2031%2031%2031%2031%200%200%201-31%2031%2031%2031%200%200%201-31-31%2031%2031%200%200%201%2031-31z%22%20transform%3D%22translate(17.986%205.07)%22%2F%3E%3C%2Fsvg%3E') center/contain no-repeat;
+                }
+
+                .logoWrap::before{ left:-2px; animation: glitch-anim-1 2s infinite linear; }
+                .logoWrap::after{ left:2px;  animation: glitch-anim-2 1.5s infinite linear; }
+
+                .txt{
+                opacity:0;
+                animation: revealUp .65s ease-out forwards;
+                }
+
+                #nick{
+                font-size: 13px;
+                color: rgba(255,255,255,.74);
+                font-style: italic;
+                letter-spacing: 1.6px;
+
+                animation-name: revealUp, textShadow;
+                animation-duration: .65s, 2.1s;
+                animation-delay: 1.38s, 1.52s;
+                animation-fill-mode: forwards, both;
+                animation-timing-function: ease-out, linear;
+                }
+
+                #name{
+                font-size: 22px;
+                letter-spacing: 1.8px;
+
+                animation-name: revealUp, textShadow;
+                animation-duration: .65s, 1.6s;
+                animation-delay: 1.46s, 1.52s;
+                animation-fill-mode: forwards, both;
+                animation-timing-function: ease-out, linear;
+                }
+
+                #sub{
+                max-width: 620px;
+                font-size: 14px;
+                line-height: 1.5;
+                color: rgba(255,255,255,.72);
+                letter-spacing: 1.1px;
+
+                animation-name: revealUp, textShadow;
+                animation-duration: .65s, 2.3s;
+                animation-delay: 1.58s, 1.68s;
+                animation-fill-mode: forwards, both;
+                animation-timing-function: ease-out, linear;
+                }
+
+                .rule{
+                width: 520px;
+                max-width: 92%;
+                height: 1px;
+                background: linear-gradient(90deg, rgba(0,0,0,0), rgba(205,0,205,.42), rgba(0,0,0,0));
+                opacity:0;
+                animation: revealUp .6s ease-out forwards;
+                animation-delay: 1.66s;
+                }
+
+                @media (prefers-reduced-motion: reduce){
+                #boot{ display:none !important; }
+                #card, #card::before, #card::after, .halo, .frame, .logoWrap, .txt, .rule, .logoWrap::before, .logoWrap::after{
+                animation:none !important;
+                opacity:1 !important;
+                transform:none !important;
+                filter:none !important;
+                }
+                }
+            </style>
+
+            <div id="wrap">
+                <!-- BOOT overlay -->
+                <div id="boot" aria-hidden="true">
+                    <div class="bootScreen">
+                        <div class="bootText">
+                            <div class="ln">
+                                <span class="dim ts">[  0.008]</span>
+                                <span class="dim tag">[runit]</span>
+                                <span class="msg">stage 1: booting...</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  0.031]</span>
+                                <span class="dim tag">[uefi]</span>
+                                <span class="msg">firmware: UEFI</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  0.046]</span>
+                                <span class="dim tag">[uefi]</span>
+                                <span class="msg">secure boot: disabled</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  0.061]</span>
+                                <span class="dim tag">[uefi]</span>
+                                <span class="msg">efivarfs: mounted</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="gap"></div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  0.092]</span>
+                                <span class="dim tag">[cpu]</span>
+                                <span class="msg">detect: Intel(R) Core(TM) i7-8550U (4C/8T)</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  0.104]</span>
+                                <span class="dim tag">[cpu]</span>
+                                <span class="msg">base 1.80GHz  boost 4.00GHz</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  0.119]</span>
+                                <span class="dim tag">[cpu]</span>
+                                <span class="msg">microcode: loaded</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  0.131]</span>
+                                <span class="dim tag">[cpu]</span>
+                                <span class="msg">smt: enabled</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  0.146]</span>
+                                <span class="dim tag">[cpu]</span>
+                                <span class="msg">mitigations: retpoline,ssbd</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="gap"></div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  0.173]</span>
+                                <span class="dim tag">[mem]</span>
+                                <span class="msg">dimm0: 16GiB DDR4-2400</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  0.185]</span>
+                                <span class="dim tag">[mem]</span>
+                                <span class="msg">dimm1: 16GiB DDR4-2400</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  0.198]</span>
+                                <span class="dim tag">[mem]</span>
+                                <span class="msg">total: 32GiB</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  0.212]</span>
+                                <span class="dim tag">[mem]</span>
+                                <span class="msg">swap: disabled</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="gap"></div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  0.244]</span>
+                                <span class="dim tag">[fs]</span>
+                                <span class="msg">remount / ro</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  0.259]</span>
+                                <span class="dim tag">[fs]</span>
+                                <span class="msg">mount: /proc</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  0.274]</span>
+                                <span class="dim tag">[fs]</span>
+                                <span class="msg">mount: /sys</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  0.291]</span>
+                                <span class="dim tag">[fs]</span>
+                                <span class="msg">mount: /run</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  0.307]</span>
+                                <span class="dim tag">[fs]</span>
+                                <span class="msg">mount: /tmp</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="gap"></div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  0.338]</span>
+                                <span class="dim tag">[blk]</span>
+                                <span class="msg">probe: sda  KINGSTON A400 480G</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  0.356]</span>
+                                <span class="dim tag">[blk]</span>
+                                <span class="msg">probe: nvme0 KINGSTON NV3 1TB</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  0.372]</span>
+                                <span class="dim tag">[blk]</span>
+                                <span class="msg">nvme0n1p1: EFI system partition (1G)</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  0.386]</span>
+                                <span class="dim tag">[blk]</span>
+                                <span class="msg">nvme0n1p2: root container (930G)</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  0.401]</span>
+                                <span class="dim tag">[blk]</span>
+                                <span class="msg">sda1: data container (447G)</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="gap"></div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  0.433]</span>
+                                <span class="dim tag">[crypt]</span>
+                                <span class="msg">luks2: open /dev/nvme0n1p2 -&gt; cryptvoid</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  0.721]</span>
+                                <span class="dim tag">[crypt]</span>
+                                <span class="msg">luks2: open /dev/sda1      -&gt; cryptdata</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  0.744]</span>
+                                <span class="dim tag">[crypt]</span>
+                                <span class="msg">integrity: off</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  0.760]</span>
+                                <span class="dim tag">[crypt]</span>
+                                <span class="msg">keyslot: 0</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="gap"></div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  0.802]</span>
+                                <span class="dim tag">[btrfs]</span>
+                                <span class="msg">mount: / (cryptvoid)</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  0.861]</span>
+                                <span class="dim tag">[btrfs]</span>
+                                <span class="msg">mount: /data (cryptdata)</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  0.877]</span>
+                                <span class="dim tag">[btrfs]</span>
+                                <span class="msg">space_cache=v2</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  0.892]</span>
+                                <span class="dim tag">[btrfs]</span>
+                                <span class="msg">scrub: skipped (recent)</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="gap"></div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  0.928]</span>
+                                <span class="dim tag">[rng]</span>
+                                <span class="msg">seed entropy</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  0.952]</span>
+                                <span class="dim tag">[udev]</span>
+                                <span class="msg">start udevd</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  1.033]</span>
+                                <span class="dim tag">[udev]</span>
+                                <span class="msg">coldplug</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  1.091]</span>
+                                <span class="dim tag">[udev]</span>
+                                <span class="msg">node: /dev/dri/card0 (i915)</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  1.107]</span>
+                                <span class="dim tag">[udev]</span>
+                                <span class="msg">node: /dev/dri/card1 (amdgpu)</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  1.123]</span>
+                                <span class="dim tag">[udev]</span>
+                                <span class="msg">node: /dev/snd/controlC0</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="gap"></div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  1.170]</span>
+                                <span class="dim tag">[net]</span>
+                                <span class="msg">lo: up</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  1.244]</span>
+                                <span class="dim tag">[net]</span>
+                                <span class="msg">wlan0: Intel AX210 (Wi-Fi 6E)</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  1.323]</span>
+                                <span class="dim tag">[net]</span>
+                                <span class="msg">wlan0: scan</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  1.692]</span>
+                                <span class="dim tag">[net]</span>
+                                <span class="msg">wlan0: connect</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  1.707]</span>
+                                <span class="dim tag">[dns]</span>
+                                <span class="msg">resolv.conf</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  1.931]</span>
+                                <span class="dim tag">[time]</span>
+                                <span class="msg">ntp sync</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="gap"></div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  2.012]</span>
+                                <span class="dim tag">[snd]</span>
+                                <span class="msg">Intel Sunrise Point-LP HD Audio</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="gap"></div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  2.090]</span>
+                                <span class="dim tag">[gfx]</span>
+                                <span class="msg">drm: init i915 (UHD 620)</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  2.221]</span>
+                                <span class="dim tag">[gfx]</span>
+                                <span class="msg">drm: init amdgpu (Lexa PRO / RX 550)</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  2.252]</span>
+                                <span class="dim tag">[gfx]</span>
+                                <span class="msg">display: 1366x768 @ 60Hz</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  2.268]</span>
+                                <span class="dim tag">[gfx]</span>
+                                <span class="msg">vt: tty1</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="gap"></div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  2.306]</span>
+                                <span class="dim tag">[vk]</span>
+                                <span class="msg">loader init</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  2.324]</span>
+                                <span class="dim tag">[vk]</span>
+                                <span class="msg">device: AMD Radeon 500 Series</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  2.339]</span>
+                                <span class="dim tag">[vk]</span>
+                                <span class="msg">device: Intel UHD Graphics 620</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  2.356]</span>
+                                <span class="dim tag">[vk]</span>
+                                <span class="msg">ext: VK_EXT_present_timing</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  2.371]</span>
+                                <span class="dim tag">[vk]</span>
+                                <span class="msg">swapchain: ready</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="gap"></div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  2.414]</span>
+                                <span class="dim tag">[pkg]</span>
+                                <span class="msg">xbps-install -S</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  2.631]</span>
+                                <span class="dim tag">[pkg]</span>
+                                <span class="msg">repo: current</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  2.711]</span>
+                                <span class="dim tag">[pkg]</span>
+                                <span class="msg">verify keys</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  2.824]</span>
+                                <span class="dim tag">[pkg]</span>
+                                <span class="msg">index: updated</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  2.839]</span>
+                                <span class="dim tag">[pkg]</span>
+                                <span class="msg">packages: 2144 (xbps), 25 (flatpak)</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="gap"></div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  2.884]</span>
+                                <span class="dim tag">[sys]</span>
+                                <span class="msg">load module: kmod</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  2.900]</span>
+                                <span class="dim tag">[sys]</span>
+                                <span class="msg">load module: i2c</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  2.915]</span>
+                                <span class="dim tag">[sys]</span>
+                                <span class="msg">load module: usb</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  2.932]</span>
+                                <span class="dim tag">[sys]</span>
+                                <span class="msg">load module: snd</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="gap"></div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  2.971]</span>
+                                <span class="dim tag">[crt]</span>
+                                <span class="msg">scanlines</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  2.986]</span>
+                                <span class="dim tag">[crt]</span>
+                                <span class="msg">phosphor</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  3.001]</span>
+                                <span class="dim tag">[crt]</span>
+                                <span class="msg">bloom</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  3.017]</span>
+                                <span class="dim tag">[crt]</span>
+                                <span class="msg">chroma-shift</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  3.032]</span>
+                                <span class="dim tag">[crt]</span>
+                                <span class="msg">flicker</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="gap"></div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  3.064]</span>
+                                <span class="dim tag">[dbg]</span>
+                                <span class="msg">set loglevel: 3</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  3.079]</span>
+                                <span class="dim tag">[dbg]</span>
+                                <span class="msg">symbols: loaded</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  3.095]</span>
+                                <span class="dim tag">[dbg]</span>
+                                <span class="msg">tracing: enabled</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="gap"></div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  3.201]</span>
+                                <span class="dim tag">[init]</span>
+                                <span class="msg">spawn services</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  3.219]</span>
+                                <span class="dim tag">[sv]</span>
+                                <span class="msg">runsvdir: /var/service</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="gap"></div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  3.248]</span>
+                                <span class="dim tag">[sv]</span>
+                                <span class="msg">up: socklog-unix</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  3.263]</span>
+                                <span class="dim tag">[sv]</span>
+                                <span class="msg">up: nanoklogd</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  3.279]</span>
+                                <span class="dim tag">[sv]</span>
+                                <span class="msg">up: udevd</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="gap"></div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  3.312]</span>
+                                <span class="dim tag">[sv]</span>
+                                <span class="msg">up: dbus</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  3.327]</span>
+                                <span class="dim tag">[sv]</span>
+                                <span class="msg">up: elogind</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  3.342]</span>
+                                <span class="dim tag">[sv]</span>
+                                <span class="msg">up: polkitd</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  3.358]</span>
+                                <span class="dim tag">[sv]</span>
+                                <span class="msg">up: rtkit</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="gap"></div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  3.391]</span>
+                                <span class="dim tag">[sv]</span>
+                                <span class="msg">up: chronyd</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  3.406]</span>
+                                <span class="dim tag">[sv]</span>
+                                <span class="msg">up: NetworkManager</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  3.422]</span>
+                                <span class="dim tag">[sv]</span>
+                                <span class="msg">up: sshd</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="gap"></div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  3.454]</span>
+                                <span class="dim tag">[sv]</span>
+                                <span class="msg">up: alsa</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  3.469]</span>
+                                <span class="dim tag">[sv]</span>
+                                <span class="msg">up: bluetoothd</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="gap"></div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  3.501]</span>
+                                <span class="dim tag">[sv]</span>
+                                <span class="msg">up: thermald</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  3.517]</span>
+                                <span class="dim tag">[sv]</span>
+                                <span class="msg">up: tlp</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  3.533]</span>
+                                <span class="dim tag">[sv]</span>
+                                <span class="msg">up: intel-undervolt</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="gap"></div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  3.566]</span>
+                                <span class="dim tag">[sv]</span>
+                                <span class="msg">up: docker</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  3.582]</span>
+                                <span class="dim tag">[sv]</span>
+                                <span class="msg">up: waydroid-container</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="gap"></div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  3.614]</span>
+                                <span class="dim tag">[sv]</span>
+                                <span class="msg">up: agetty-tty1</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  3.629]</span>
+                                <span class="dim tag">[sv]</span>
+                                <span class="msg">up: agetty-tty2</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  3.645]</span>
+                                <span class="dim tag">[sv]</span>
+                                <span class="msg">up: agetty-tty3</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  3.660]</span>
+                                <span class="dim tag">[sv]</span>
+                                <span class="msg">up: agetty-tty4</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  3.676]</span>
+                                <span class="dim tag">[sv]</span>
+                                <span class="msg">up: agetty-tty5</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  3.691]</span>
+                                <span class="dim tag">[sv]</span>
+                                <span class="msg">up: agetty-tty6</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="gap"></div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  3.723]</span>
+                                <span class="dim tag">[sv]</span>
+                                <span class="msg">up: pipewire</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  3.739]</span>
+                                <span class="dim tag">[sv]</span>
+                                <span class="msg">up: wireplumber</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  3.754]</span>
+                                <span class="dim tag">[sv]</span>
+                                <span class="msg">up: seatd</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  3.769]</span>
+                                <span class="dim tag">[sv]</span>
+                                <span class="msg">up: wayland</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  3.785]</span>
+                                <span class="dim tag">[sv]</span>
+                                <span class="msg">up: sway (Wayland)</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="gap"></div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  3.911]</span>
+                                <span class="dim tag">[ok]</span>
+                                <span class="msg">entering userland</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  3.942]</span>
+                                <span class="ink tag">[rutpiv]</span>
+                                <span class="msg">ThinkPad E480: assemble patterns from the void</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  3.971]</span>
+                                <span class="dim tag">[kernel]</span>
+                                <span class="msg">Linux 6.17.13_1 (Void glibc)</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="gap"></div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  4.006]</span>
+                                <span class="dim tag">[buf]</span>
+                                <span class="msg">stream: tty0  size=4096</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  4.011]</span>
+                                <span class="dim tag">[buf]</span>
+                                <span class="msg">stream: tty0  burst=MAX</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  4.016]</span>
+                                <span class="dim tag">[buf]</span>
+                                <span class="msg">stream: tty0  flush=1ms</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  4.021]</span>
+                                <span class="dim tag">[buf]</span>
+                                <span class="msg">stream: tty0  drop=0</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  4.026]</span>
+                                <span class="dim tag">[buf]</span>
+                                <span class="msg">stream: tty0  drop=0</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  4.031]</span>
+                                <span class="dim tag">[buf]</span>
+                                <span class="msg">stream: tty0  drop=0</span>
+                            </div>
+
+                            <div class="gap"></div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  4.112]</span>
+                                <span class="err tag">[warn]</span>
+                                <span class="msg">mem: page checksum mismatch at 0x00007f2a</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  4.139]</span>
+                                <span class="dim tag">[fix]</span>
+                                <span class="msg">mem: patching block █▒▒▓▓▒▒█▒▒▓▓▒▒█▒▒▓▓▒▒█</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  4.164]</span>
+                                <span class="dim tag">[fix]</span>
+                                <span class="msg">crt: re-lock sync</span>
+                                <span class="st ok">ok</span>
+                            </div>
+
+                            <div class="gap"></div>
+
+                            <div class="ln">
+                                <span class="dim ts">[  4.214]</span>
+                                <span class="ink tag">exec</span>
+                                <span class="msg">./card --render --crt --glitch --speed=MAX<span class="caret"></span></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- CARD -->
+                <div id="card">
+                    <div class="stage">
+                        <div class="logoArea">
+                            <div class="halo"></div>
+                            <div class="frame"></div>
+
+                            <div class="logoWrap" aria-label="Rutpiv mark" role="img">
+                                <svg viewBox="0 0 1024 1024">
+                                    <path fill="#cd00cd" d="M407.049 784.042c6.416.078 12.776-2.275 17.578-7.074l246.441-246.83c15.48-12.492 14.985-37.311 14.358-56.273l-.707-35.266a79.5 79.5 0 0 0 66.32-78.285 79.5 79.5 0 0 0-79.5-79.5 79.5 79.5 0 0 0-79.5 79.5 79.5 79.5 0 0 0 42.418 70.101l.728 64.915C621.56 509.527 499.84 629.976 499.84 629.976l-1.473-173.975a79.5 79.5 0 0 0 12.121-41.255c0-43.907-35.593-79.5-79.5-79.5-43.906 0-79.5 35.593-79.5 79.5 0 43.906 35.594 79.5 79.5 79.5 5.957-.001 11.896-.671 17.703-1.998l1.573 185.5c.005.523.173 1.012.257 1.52l-62.224 62.189c-9.604 9.598-9.233 25.245.83 35.082 5.032 4.918 11.505 7.426 17.922 7.503zm23.94-338.296a31 31 0 0 1-31-31 31 31 0 0 1 31-31 31 31 0 0 1 31 31 31 31 0 0 1-31 31zm240.55-54.432a31 31 0 0 1-31-31 31 31 0 0 1 31-31 31 31 0 0 1 31 31 31 31 0 0 1-31 31z" transform="rotate(180 567.007 561.465)"/>
+                                    <path fill="#cd00cd" d="M543.539 176.814a79.5 79.5 0 0 0-79.5 79.5 79.5 79.5 0 0 0 42.418 70.101l.728 64.915C493.56 405.527 371.84 525.976 371.84 525.976l-1.473-173.975a79.5 79.5 0 0 0 12.121-41.255c0-43.907-35.593-79.5-79.5-79.5-43.906 0-79.5 35.593-79.5 79.5 0 43.906 35.594 79.5 79.5 79.5 5.957-.001 11.896-.671 17.703-1.998l1.573 185.5c.005.523.173 1.012.257 1.52l-62.224 62.189c-9.604 9.598-9.233 25.245.83 35.082 10.063 9.836 25.896 10.027 35.5.43l246.441-246.83c15.48-12.493 14.985-37.312 14.358-56.274l-.707-35.266a79.5 79.5 0 0 0 66.32-78.285 79.5 79.5 0 0 0-79.5-79.5zm0 48.5a31 31 0 0 1 31 31 31 31 0 0 1-31 31 31 31 0 0 1-31-31 31 31 0 0 1 31-31zm-240.55 54.432a31 31 0 0 1 31 31 31 31 0 0 1-31 31 31 31 0 0 1-31-31 31 31 0 0 1 31-31z" transform="translate(17.986 5.07)"/>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div class="txt" id="nick">@rutpiv</div>
+                        <div class="txt" id="name">Roger Freitas Pereira</div>
+
+                        <div class="rule"></div>
+
+                        <div class="txt" id="sub">Between signal and silence, patterns assemble themselves.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </foreignObject>
 </svg>
