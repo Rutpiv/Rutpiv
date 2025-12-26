@@ -24,10 +24,18 @@ Here’s a bit about my background:
 
 <p align="center">
   <a href="https://github.com/rutpiv?tab=repositories">
-    <img src="https://github-readme-stats.vercel.app/api?username=rutpiv&theme=github_dark&show_icons=true&count_private=true&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR" width="50%" alt="GitHub stats">
+    <img
+      src="https://github-readme-stats-fast.vercel.app/api?username=rutpiv&show_icons=true&theme=tokyonight"
+      width="50%"
+      alt="GitHub stats"
+    />
   </a>
   <a href="https://github.com/rutpiv?tab=stars">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rutpiv&theme=github_dark&layout=compact" width="45%"/>
+    <img
+      src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=rutpiv&layout=compact&theme=tokyonight"
+      width="38%"
+      alt="Top languages"
+    />
   </a>
 </p>
 
