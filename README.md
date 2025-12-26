@@ -4,23 +4,55 @@
 
 ---
 
-# 🧠 About Me
+# Overview
 
-I'm passionate about open-source software and systems programming.  
-Here’s a bit about my background:
-
-- 🎓 **Computer Engineering Student** at Engenheiro Salvador Arena College
-- 🧩 **Data Analysis Intern** at **Mercedes-Benz Brazil**, working with **Python**, **Pandas**, and **Polars**
-- 🎮 Working with a **team of developers** using **Godot** for **game development**, focusing on performance, scalability, and design
-- 🎓 **Industrial Automation Technician** from ETEC Lauro Gomes
-- 💻 Enthusiast of **C programming**, with solid experience in **C#**, **Java**, and **Lua**
-- 📚 Focused on **Information Security**, **Low-Level Programming**, and **DevOps**
-- 📦 This profile showcases my **educational projects** and **open-source contributions**
-- 🔗 My personal and private projects are hosted on [GitLab](https://gitlab.com/Rutpiv)
+Computer Engineering student focused on systems programming, open-source, and data engineering.  
+I build tooling and automation in Python and develop low-level projects in C, with an interest in security and performance.
 
 ---
 
-## 📈 GitHub Stats
+## Experience
+
+- **Data Analysis Intern** | **Mercedes-Benz Brazil**  
+  Python-based analytics pipelines using **Pandas** and **Polars**
+
+- **Developer (Team Project)** | **Ciclica Interactive**  
+  Game development with **Godot**, focused on performance optimization, scalability, and bug fixing
+
+---
+
+## Education
+
+- **B.Sc. in Computer Engineering (in progress)** | Engenheiro Salvador Arena College  
+- **Industrial Automation Technician** | ETEC Lauro Gomes  
+
+---
+
+## Technical Focus
+
+- Systems programming and performance work in **C**
+- Data processing and automation in **Python** (Pandas, Polars)
+- Interest areas: **Information Security**, **Low-level Development**, **DevOps**
+
+---
+
+## Skills & Technologies
+
+<div align="center">
+  <h3>Languages</h3>
+  <p>
+    <img src="https://skillicons.dev/icons?i=c,cs,cpp,lua,python,java" alt="Languages" />
+  </p>
+
+  <h3>Tools & Platforms</h3>
+  <p>
+    <img src="https://skillicons.dev/icons?i=neovim,docker,gitlab,linux,godot" alt="Tools & Platforms" />
+  </p>
+</div>
+
+---
+
+## GitHub Stats
 
 <p align="center">
   <a href="https://github.com/rutpiv?tab=repositories">
@@ -41,29 +73,20 @@ Here’s a bit about my background:
 
 ---
 
-## 🛠️ Skills & Technologies
+## Projects
 
-<div align="center">
-  <h3>Languages</h3>
-  <p>
-    <img src="https://skillicons.dev/icons?i=c,cs,cpp,lua,python,java" />
-  </p>
-
-  <h3>Tools & Systems</h3>
-  <p>
-    <img src="https://skillicons.dev/icons?i=neovim,docker,gitlab,linux,godot" />
-  </p>
-</div>
+- Public projects and open-source contributions are available on GitHub  
+- Personal/private projects: [GitLab](https://gitlab.com/Rutpiv)
 
 ---
 
-## 📫 Connect with Me
+## Contact
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/rutpiv/" target="_blank">
-    <img height="40" src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white" />
+  <a href="https://www.linkedin.com/in/rutpiv/" target="_blank" rel="noreferrer">
+    <img height="40" src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="mailto:roger_freitas@live.com" target="_blank">
-    <img height="40" src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail&logoColor=white" />
+  <a href="mailto:roger_freitas@live.com">
+    <img height="40" src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>
