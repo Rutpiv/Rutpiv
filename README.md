@@ -2,91 +2,35 @@
   <img src="docs/card.svg" width="800" height="400" alt="Profile Card" />
 </div>
 
----
-
 # Overview
 
-Computer Engineering student focused on systems programming, open-source, and data engineering.  
-I build tooling and automation in Python and develop low-level projects in C, with an interest in security and performance.
+Computer Engineering student focused on systems programming, open-source, and low-level development. I build tooling and automation in Python professionally, and develop projects in C out of personal interest in performance and systems.
 
----
+## Currently
 
-## Experience
+- **Data Analysis Intern** at **Mercedes-Benz Brazil**
+  - Data pipelines in **Python**, recently migrated from **Pandas** to **Polars** for performance
+  - Pipeline optimization and performance tuning
+  - Maintain an internal Python library for the data analysis team, including a parser and evaluator for boolean expressions used in vehicle configuration logic (tokenization, De Morgan simplification, path enumeration over the configuration space)
+  - SharePoint integration and SAP integration tooling
+  - **Power BI** dashboards, with custom visual design in **Inkscape**
+- Open-source contributor to [Void Linux](https://github.com/void-linux/void-packages/commits?author=rutpiv), [maintaining package templates](https://repology.org/maintainer/roger_freitas%40live.com) and submitting patches across the distribution
+- Pursuing a **B.Sc. in Computer Engineering** at Engenheiro Salvador Arena College
+  - Final-year research on **chaos-based communication systems**, under a research line rooted in Pecora–Carroll synchronization
+  - Implementing signal generation with the **Hénon map**, **FIR** filtering, and **Lyapunov exponents** for chaotic orbit validation
+  - Studying **DCSK** modulation as a candidate extension to the work
 
-- **Data Analysis Intern** | **Mercedes-Benz Brazil**  
-  Python-based analytics pipelines using **Pandas** and **Polars**
+## Background
 
-- **Developer (Team Project)** | **Ciclica Interactive**  
-  Game development with **Godot**, focused on performance optimization, scalability, and bug fixing
-
----
-
-## Education
-
-- **B.Sc. in Computer Engineering (in progress)** | Engenheiro Salvador Arena College  
-- **Industrial Automation Technician** | ETEC Lauro Gomes  
-
----
+- **Industrial Automation Technician** — ETEC Lauro Gomes
 
 ## Technical Focus
 
 - Systems programming and performance work in **C**
-- Data processing and automation in **Python** (Pandas, Polars)
-- Interest areas: **Information Security**, **Low-level Development**, **DevOps**
-
----
-
-## Skills & Technologies
-
-<div align="center">
-  <h3>Languages</h3>
-  <p>
-    <img src="https://skillicons.dev/icons?i=c,cs,cpp,lua,python,java" alt="Languages" />
-  </p>
-
-  <h3>Tools & Platforms</h3>
-  <p>
-    <img src="https://skillicons.dev/icons?i=neovim,docker,gitlab,linux,godot" alt="Tools & Platforms" />
-  </p>
-</div>
-
----
-
-## GitHub Stats
-
-<p align="center">
-  <a href="https://github.com/rutpiv?tab=repositories">
-    <img
-      src="https://github-readme-stats-fast.vercel.app/api?username=rutpiv&show_icons=true&theme=tokyonight"
-      width="50%"
-      alt="GitHub stats"
-    />
-  </a>
-  <a href="https://github.com/rutpiv?tab=stars">
-    <img
-      src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=rutpiv&layout=compact&theme=tokyonight"
-      width="38%"
-      alt="Top languages"
-    />
-  </a>
-</p>
-
----
+- Emulator development and computer architecture
+- Areas of interest: **Information Security**, **DevOps**, embedded systems
 
 ## Projects
 
-- Public projects and open-source contributions are available on GitHub  
-- Personal/private projects: [GitLab](https://gitlab.com/Rutpiv)
-
----
-
-## Contact
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/rutpiv/" target="_blank" rel="noreferrer">
-    <img height="40" src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:roger_freitas@live.com">
-    <img height="40" src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-</p>
+- Public projects and open-source contributions are available on this GitHub profile
+- Personal projects on [GitLab](https://gitlab.com/Rutpiv), including a **CHIP-8 emulator** currently being rewritten in C
